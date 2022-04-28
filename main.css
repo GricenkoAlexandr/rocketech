@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 body {
-margin: 0;
-padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 }
@@ -11,7 +9,6 @@ font-family: 'Poppins', sans-serif;
 section {
   width: 1110px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 header {
@@ -51,7 +48,7 @@ menu a {
   color: #333333;
 }
 
-menu a:last-child {
+.brif {
   background-color:blue;
   color:#ffffff;
   padding: 3px 20px;
@@ -91,3 +88,67 @@ menu a:last-child img {
   width: 430px;
 
 }
+
+
+
+
+
+.cliets {
+  background-color: #1B1B1B;
+}
+
+
+
+/* footer */
+footer {
+  height: 390px;
+  background-color: #333333;
+  padding: 70px;
+}
+
+.upperfooter {
+  height: 240px;
+  display: flex;
+}
+
+.footeritem {
+  width: 25%;
+}
+
+.footeritem p {
+  color:#ffffff;
+  font-size: 14px;
+  width: 262px;
+  margin-top: 39px;
+}
+
+.fbrif {
+  background-color:blue;
+  color:#ffffff;
+  padding: 17px 26px;
+  border-radius: 3px;
+  box-shadow: 0px 10px 15px rgba(46, 124, 235, 0.15);
+  text-decoration: none;
+}
+
+
+
+.lowerfooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 76px;
+}
+
+.lowerfooter span {
+  color:#ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.socialblock a img {
+  margin-left: 22px;
+}
+
+
+/* footer end */
