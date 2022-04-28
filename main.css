@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+section {
+  width: 1110px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 103px;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 59px;
+  align-items:center;
+}
+
+.logo h1 {
+  margin-left:9px;
+  font-size: 22px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+menu {
+  display: flex;
+  height: 44px;
+}
+
+menu a {
+  text-decoration: none;
+  margin-right: 68px;
+  display: flex;
+  align-items:center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+}
+
+menu a:last-child {
+  background-color:blue;
+  color:#ffffff;
+  padding: 3px 20px;
+  border-radius: 3px;
+  box-shadow: 0px 10px 15px rgba(46, 124, 235, 0.15);
+}
+
+menu a:last-child img {
+  margin-left: 15px;
+}
+
+.karusel {
+  background-image: url(./img/carusel1.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.karuselblock {
+  height: 980px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftside, .rightside {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+
+.leftside h2 {
+  font-size: 52px;
+  width: 440px;
+}
+
+.rightside p {
+  width: 430px;
+
+}
