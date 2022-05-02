@@ -9,7 +9,6 @@ font-family: 'Poppins', sans-serif;
 section {
   max-width: 1110px;
   margin: 0 auto;
-  border: 1px solid red;
   height: 100%;
 }
 
@@ -205,10 +204,14 @@ menu a {
   color:#ffffff;
 }
 
+.crpt {
+  padding-top: 120px;
+  box-sizing: border-box;
+}
+
 .crpt h3 {
   font-weight: 700;
   font-size: 36px;
-  margin-top: 120px;
 }
 
 .crpt p {
@@ -232,9 +235,6 @@ menu a {
 .crpt a img {
   margin-left: 62px;
 }
-
-
-
 
 /* crpt end */
 
@@ -350,11 +350,17 @@ menu a {
 
 /* clients */
 
+.clt {
+  padding-top: 87px;
+  min-height: 509px;
+}
+
 .clt h3{
   font-weight: 900;
   font-size: 45px;
   line-height: 74px;
   color:#ffffff;
+  margin-bottom: 58px;
 }
 
 /* clients end */
