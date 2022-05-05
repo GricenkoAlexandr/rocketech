@@ -5,6 +5,10 @@ body {
 font-family: 'Poppins', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 section {
   max-width: 1110px;
   margin: 0 auto;
@@ -51,13 +55,16 @@ menu a {
   color: #333333;
 }
 
+
 .brif {
   background: linear-gradient(273.43deg, #5C9FF9 -16.34%, #0058DC 97.2%), #C4C4C4;
   color:#ffffff;
   padding: 3px 20px;
   border-radius: 3px;
   box-shadow: 0px 10px 15px rgba(46, 124, 235, 0.15);
+  border: transparent;
 }
+
 
 .brif img {
   margin-left: 16px;
@@ -114,6 +121,21 @@ menu a {
   margin: 265px 0px 75px 0px;
 }
 
+.fbrif {
+  background: linear-gradient(273.43deg, #5C9FF9 -16.34%, #0058DC 97.2%), #C4C4C4;
+  color:#ffffff;
+  padding: 16px 36px;
+  border: transparent;
+  border-radius: 3px;
+  box-shadow: 0px 10px 15px rgba(46, 124, 235, 0.15);
+  text-decoration: none;
+}
+
+.fbrif img {
+  margin-left: 28px;
+}
+
+
 .mouse {
   margin-top: 281px;
 }
@@ -150,28 +172,39 @@ menu a {
 }
 
 .statitem {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.statcircle {
   background-image: url(./img/surcal.svg);
   background-repeat: no-repeat;
   background-size:contain;
   display: flex;
   justify-content:center;
   align-items:center;
-  width:128px;
+  width: 128px;
   height: 128px;
 }
 
-.statitem span {
+.statcircle span {
   font-size: 35px;
   font-weight: 600;
 }
 
 .stattext {
+  width: 220px;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+}
+
+.stattext span {
   font-size: 16px;
   font-weight: 800;
-  display: flex;
-  flex-wrap: wrap;
-  align-items:center;
-  max-width: 140px;
+  text-align: center;
+  margin-top: 45px;
 }
 
 .aboutblock a {
@@ -389,10 +422,16 @@ menu a {
   box-sizing:border-box;
   width: 200px;
   height: 201px;
-  border: 1px solid #E0E0E0;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.04);
   border-radius: 5px;
   padding: 5px;
+  border: 1px solid #ffffff;
+  transition: 0.7s;
+}
+
+.techitem:hover {
+  border: 1px solid #E0E0E0;
+  box-shadow: 5px 5px 30px rgba(238, 22, 7, 0.3);
 }
 
 .techitem img {
@@ -441,7 +480,7 @@ menu a {
 
 /* footer */
 footer {
-  height: 390px;
+  min-height: 390px;
   background-color: #333333;
   padding-top: 70px;
 }
@@ -495,25 +534,14 @@ address p {
   margin-top: 5px;
 }
 
-.fbrif {
-  background: linear-gradient(273.43deg, #5C9FF9 -16.34%, #0058DC 97.2%), #C4C4C4;
-  color:#ffffff;
-  padding: 16px 36px;
-  border-radius: 3px;
-  box-shadow: 0px 10px 15px rgba(46, 124, 235, 0.15);
-  text-decoration: none;
-}
-
-.fbrif img {
-  margin-left: 28px;
-}
 
 
 .lowerfooter {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 76px;
+  min-height: 76px;
 }
 
 .lowerfooter span {
