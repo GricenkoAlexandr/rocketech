@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 body {
-box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 }
 
@@ -67,7 +66,7 @@ menu a {
 .karusel {
   background: url(./img/carusel11.jpg) no-repeat center center;
   background-size:cover;
-  max-height: 967px;
+  min-height: 967px;
 }
 
 .karuselblock {
@@ -100,10 +99,6 @@ menu a {
   align-items: top;
 }
 
-.navblock img:first-child {
-  filter: url(#0058DC);
-}
-
 .arrownav {
   margin-left: 37px;
 }
@@ -114,8 +109,8 @@ menu a {
 }
 
 .rightside p {
-  width: 430px;
-  height: 181px;
+  max-width: 430px;
+  min-height: 181px;
   margin: 265px 0px 75px 0px;
 }
 
@@ -452,19 +447,52 @@ footer {
 }
 
 .upperfooter {
-  height: 240px;
+  min-height: 240px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footeritem {
-  width: 400px;
+  min-width: 277px;
+  color: #ffffff;
+}
+
+.footeritem ul {
+  list-style: none;
+}
+
+.footeritem ul li {
+  margin: 10px;
+}
+
+.footeritem ul li a{
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footeritem p {
-  color:#ffffff;
   font-size: 14px;
   width: 262px;
   margin-top: 39px;
+}
+
+address a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+address h5 {
+  margin-bottom: 5px;
+}
+
+address h5 span {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 9px;
+}
+
+address p {
+  margin-top: 5px;
 }
 
 .fbrif {
@@ -504,12 +532,20 @@ footer {
 
 /* adaptive */
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 410px) {
+
+  .header {
+    min-width: 375px;
+  }
   
-section {
-  max-width: 480px;
-  margin: 0 auto;
-}
+  .logo {
+    display: block;
+  }
+
+  .logo img{
+    display:block;
+    margin: 0 auto;
+  }
 
 }
 
