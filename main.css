@@ -291,7 +291,6 @@ menu a {
 }
 
 .direct {
-  padding-top: 96px;
   color:#333333;
   height: 100%;
 }
@@ -299,6 +298,7 @@ menu a {
 .direct h3 {
   font-weight: 900;
   font-size: 45px;
+  margin-top: 96px;
 }
 
 .direct p {
@@ -394,7 +394,6 @@ menu a {
 /* clients */
 
 .clt {
-  padding-top: 87px;
   min-height: 509px;
 }
 
@@ -403,6 +402,13 @@ menu a {
   font-size: 45px;
   line-height: 74px;
   color:#ffffff;
+  margin: 50px 0px 58px 0px;
+}
+
+.clts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-bottom: 58px;
 }
 
