@@ -600,6 +600,51 @@ address p {
     justify-content: center;
   }
 
+  .leftside h2 {
+    margin: 30px 0px;
+    font-size: 40px;
+  }
+
+  .rightside p {
+    margin: 30px 0px;
+  }
+
+  .mouse {
+    margin: 30px auto;
+  }
+
+  .aboutblock h3 {
+    margin: 30px 0px;
+  }
+
+  .crpt {
+    padding-top: 30px;
+  }
+
+  .direct {
+    padding-top: 30px;
+  }
+
+  .directblock {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .lastproblock {
+    justify-content: center;
+  }
+
+  .techitems {
+    justify-content: center;
+  }
+
+  .upperfooter {
+    justify-content: center;
+  }
+
+  .lowerfooter {
+    justify-content: center;
+  }
 }
 
 /* adaptive end */
