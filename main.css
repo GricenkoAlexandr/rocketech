@@ -717,6 +717,11 @@ address h5 span {
     justify-content: center;
   }
 
+  address {
+    margin-left: 75px;
+    margin-bottom: 30px;
+  }
+
   .lowerfooter {
     justify-content: center;
   }
