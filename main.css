@@ -519,6 +519,7 @@ footer {
   min-height: 390px;
   background-color: #333333;
   padding-top: 70px;
+  font-size: 14px;
 }
 
 .upperfooter {
@@ -538,15 +539,17 @@ footer {
 
 .footeritem ul li {
   margin: 10px;
+  
 }
 
 .footeritem ul li a{
   color: #ffffff;
   text-decoration: none;
+  margin-left: 13px;
 }
 
 .footeritem p {
-  font-size: 14px;
+  line-height: 26px;
   width: 262px;
   margin-top: 39px;
 }
@@ -566,8 +569,9 @@ address h5 span {
   margin-left: 9px;
 }
 
-address p {
-  margin-top: 5px;
+.footeritem address p {
+  margin: 5px 0px 14px 0px;
+
 }
 
 
